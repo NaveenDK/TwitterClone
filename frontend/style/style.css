@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#0F0F11;
+}
+
+.container.home-page {
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    background-color:#0F0F11
+    
+}
+
+.navigation-container {
+    width:20%;
+     
+    max-width:100px;
+    min-width:70px;
+  
+     
+}
+
+.main {
+   
+    flex:1;
+    flex-direction:column;
+    display:flex;
+}
+
+.tweets-sidebar-container {
+     
+    flex-grow:1;
+    flex:1
+}
+
+
+.tweets-search-container {
+     
+    margin:20px;
+    margin-top:30px;
+    margin-bottom:0;
+    display:flex;
+    align-items:center;
+      border-bottom:1px solid #979797;
+   
+    
+}
+.tweets-search-container i{
+    color:white;
+    font-size:30px;
+}
+
+.tweets-sidebar{
+    width:300px;
+    height:500px;
+    margin:20px;
+    margin-top:30px;
+    background-color:white;
+    border:1px solid #979797;
+    border-radius:40px;
+    overflow:hidden;
+    position:fixed;
+}
+.tweets-trending{
+    height:230px;
+    background:#F2F2F2;
+    margin:10px;
+    border-radius:40px;
+    padding-top:20px;
+  
+}
+.tweets-trending h5{
+    font-size:12px;
+    color:#848586;
+    margin-top:0;
+
+
+}
+.navigation {
+    margin-top: 30px;
+    color: white;
+    /* max-width: 20%; */
+    /* max-width: 100px; */
+    position: fixed;
+    width: 20%;
+    max-width: 100px;
+    min-width: 70px;
+}
+.logo {
+    display: flex;
+    font-size:30px;
+    justify-content: center;
+}
+.logo i{
+    font-size:30px;
+}
+
+
+.home-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+     
+    border-right: 4px solid #00AdFF;
+    height: 40px;
+    align-items: center;
+}
+.home-link i{
+   color: #00AdFF
+}
+.profile-container {
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+.profile {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #979797;
+}
+/* #user-search-input{
+    flex:1;
+    background-color:transparent;
+    border:none;
+    font-size:30px;
+    color:white;
+    padding-left:10px;
+    padding-right:10px;
+} * instead of this we add the below style*/
+
+
+.tweets-search-container input {
+    flex:1;
+    background-color:transparent;
+    border:none;
+    font-size:30px;
+    color:white;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+
+.tweets-search-container input:focus-visible {
+    outline: none
+}
+
+.tweets-search-container i{
+    padding-left:10px;
+}
+
+.tweet-images-container {
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    height:200px;
+    border:1px solid #1c1c1c;
+    border-radius:20px;
+   
+        display: flex;
+        flex-wrap: wrap;
+    
+}
+
+.tweet-video-container{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    height:200px;
+    border:1px solid #1c1c1c;
+    border-radius:20px;
+    
+}
+.tweet-video-container video{
+    width:100%;
+    height:100%;
+}
+
+.tweets-trending ul li {
+    list-style: none;
+    border-top: 0.5px solid #d8d8d8;
+    padding-left: 20px;
+    padding-top: 8px;
+    font-size: 26px;
+    padding-bottom: 8px;
+    color: #A5A5A6;
+    font-weight:600;
+}
+ 
+
+.tweets-trending ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.tweets-trending h5 {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.tweets-trending {
+    height: 300px;
+    background: #F2F2F2;
+    margin: 10px;
+    border-radius: 40px;
+    padding-top: 20px;
+   
+}
+ 
+.tweet-image{
+    
+     flex-grow:1;
+    flex-basis: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.next-page-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#47525D;
+    margin-right: 20px;
+    margin-left: 20px;
+    border:1px solid #1c1c1c;
+    border-radius:20px;
+    padding:6px;
+    text-align:center;
+    cursor:pointer;
+    transition:all 0.2s ease-in-out;
+    visibility: hidden;
+}
+.next-page-container:hover{
+    background-color:#1c1c1c;
+}
+.tweets-welcome-message{
+    color:white;
+    text-align:center;
+}
+.tweets-welcome-message h5{
+  margin-bottom:0;
+}
+.tweets-welcome-message p{
+    font-size:10px;
+}
